@@ -1,7 +1,7 @@
 # Extracting Spotify data using Spark 
 
 ## Project Synopsis
-This project is aimed at extracting the daily Top 50 Songs Playlist Data using **AWS Services** like **Lambda** and **Glue** and store the processed data in **Snowflake DWH** .<br> The project is designed to automatically extract, process, and store raw data using **AWS LAMBDA function**, **AWS Glue**  and **SNOWPIPE** from a daily-updated top 50 songs playlist.<br> This data is crucial for performing in-depth analyses on **Music Trends**, **Artist Popularity**, and **Album Success** over time
+This project is aimed at extracting the daily Top 50 Songs Playlist Data using **SPARK** , **AWS Services** like **Lambda** and **Glue** and store the processed data in **Snowflake DWH** .<br> The project is designed to automatically extract, process, and store raw data using **AWS LAMBDA function**, **AWS Glue**  and **SNOWPIPE** from a daily-updated top 50 songs playlist.<br> This data is crucial for performing in-depth analyses on **Music Trends**, **Artist Popularity**, and **Album Success** over time
 
 ## Dataset
 The dataset used for this project is obtained from this [Spotify](https://open.spotify.com/playlist/37i9dQZF1DXcBWIGoYBM5M) playlist. <br> This playlist is updated everyday with the top 50 songs for the current day. The raw data is obtained in **JSON** semi-structured format , which is cleaned and the data is stored in different tables accordingly.
